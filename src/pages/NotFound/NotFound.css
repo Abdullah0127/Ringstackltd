@@ -1,0 +1,29 @@
+.not-found-page {
+  min-height: 100vh;
+  background: #090e18;
+  color: #f8fafc;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.not-found-wrap {
+  text-align: center;
+  max-width: 500px;
+}
+
+.not-found-page h1 {
+  font-size: clamp(48px, 10vw, 96px);
+  font-weight: 800;
+  margin: 0 0 16px;
+  color: #fff;
+  letter-spacing: -2px;
+}
+
+.not-found-page p {
+  font-size: 18px;
+  color: #aab4c5;
+  margin: 0 0 32px;
+}

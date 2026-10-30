@@ -1,0 +1,6 @@
+.offers-page { padding: 40px 0; }
+.offers-layout { display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+.offers-filters fieldset { border: 1px solid var(--border); padding: 12px; margin-bottom: 12px; }
+.offers-filters label { display: block; font-size: 0.9rem; }
+.offer-card { border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 16px; background: #fff; }
+@media (max-width: 768px) { .offers-layout { grid-template-columns: 1fr; } }
